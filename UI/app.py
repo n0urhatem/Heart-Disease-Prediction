@@ -224,5 +224,5 @@ with st.expander("ℹ️ About This Model"):
 
 # Footer
 st.markdown("---")
-st.header("*Nour Hatem*")
+st.header("Nour Hatem")
 st.markdown("*Built with Streamlit • For educational purposes only*")
