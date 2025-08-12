@@ -22,13 +22,13 @@ def load_model_components():
         with open('models/final_model_XGBoost_model.pkl', 'rb') as file:
             model = pickle.load(file)
         
-        with open('../.pkl/columns.pkl', 'rb') as file:
+        with open('.pkl/columns.pkl', 'rb') as file:
             expected_cols = pickle.load(file)
         
-        with open('../.pkl/scaler.pkl', 'rb') as file:
+        with open('.pkl/scaler.pkl', 'rb') as file:
             scaler = pickle.load(file)
         
-        with open('../.pkl/pca.pkl', 'rb') as file:
+        with open('.pkl/pca.pkl', 'rb') as file:
             pca = pickle.load(file)
         
         # Remove target column if it exists in expected_cols
