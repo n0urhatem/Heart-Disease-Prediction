@@ -19,7 +19,7 @@ st.set_page_config(
 def load_model_components():
     """Load all model components with error handling"""
     try:
-        with open('../models/final_model_XGBoost_model.pkl', 'rb') as file:
+        with open('models/final_model_XGBoost_model.pkl', 'rb') as file:
             model = pickle.load(file)
         
         with open('../.pkl/columns.pkl', 'rb') as file:
